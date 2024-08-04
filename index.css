@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(11, 11, 95);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.reg-form{
+    margin-top: 30px;
+}
+
+.stu-form{
+    border: none;
+}
+
+form{
+    display: flex;
+    font-size: 20px;
+    padding: auto;
+    flex-direction: column;
+}
+
+label{
+    margin-left: 450px;
+    font-weight: bold;
+}
+
+.inputname, .inputid, .inputemail, .inputcontactno{
+    margin: 8px;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.add-btn{
+    height: 30px;
+    width: 50px;
+    margin-top: 20px !important;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.add-btn:hover{
+    background-color: rgb(11, 11, 95);
+    color: #ddd;
+}
+
+h2{
+    margin-top: 30px;
+    margin-left: 290px; 
+}
+
+table {
+    width: 700px;
+}
+
+th{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color:  rgb(11, 11, 95) ;
+}
+
+table, th, tr {
+    border: 3px rgba(128, 128, 128, 0.397) solid;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+    border: 3px rgba(128, 128, 128, 0.397) solid;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.entered{
+    margin: auto;
+}
+
+.entered-details{
+    font-size: 20px;
+    
+}
+
+.edit , .delete {
+    height: 20px;
+    width: 70px;
+    margin: auto;
+}
+
